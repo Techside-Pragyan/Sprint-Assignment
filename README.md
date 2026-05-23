@@ -1,6 +1,6 @@
 # 🧠 DocumentMind AI — Your Smart Document Assistant
 
-> Stop reading long files. Upload any PDF, Word document, or image, and let Google Gemini AI explain, summarize, or answer questions about it instantly! 🚀
+> Stop reading long files. Upload any PDF, Word document, or image, and let smart AI explain, summarize, or answer questions about it instantly! 🚀
 
 ---
 
@@ -16,7 +16,7 @@ It reads **PDFs**, Microsoft **Word documents**, and even **images** (using adva
 
 *   **📄 Smart PDF & Word Reader** — Upload your `.pdf` and `.docx` files, and watch the AI extract and understand the text in seconds.
 *   **📷 Image-to-Text OCR scanner** — Have a screenshot, photo, or scanned document? The built-in scanner reads text directly from images.
-*   **💬 Interactive AI Chat** — Chat naturally with your documents using Google's powerful **Gemini AI** to get summaries, explainers, or key insights.
+*   **💬 Interactive AI Chat** — Chat naturally with your documents using powerful **AI models** to get summaries, explainers, or key insights.
 *   **🔒 Secure User Accounts** — Created with custom registration, secure login password protection, and personal workspaces to keep your files private.
 *   **🎨 Stunning Modern Interface** — A premium, responsive interface styled with Tailwind CSS, supporting seamless navigation.
 
@@ -33,7 +33,7 @@ This project is built using a modern, scalable full-stack architecture:
 ### Backend (The Brains)
 *   **Server Framework:** Express (Node.js)
 *   **Database:** MongoDB via Mongoose for saving users and document logs
-*   **AI Engine:** Google Gemini AI SDK (`@google/generative-ai`)
+*   **AI Engine:** Google Generative AI SDK (`@google/generative-ai`)
 *   **File Parsers:** `pdf-parse` (for PDFs), `mammoth` (for Word), and `tesseract.js` (for Image OCR)
 *   **Authentication:** JSON Web Tokens (JWT) for secure user sessions
 
@@ -63,7 +63,7 @@ cd Sprint-Assignment
    PORT=5000
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
-   GEMINI_API_KEY=your_google_gemini_api_key
+   API_KEY=your_google_generative_ai_key
    ```
 4. Start the backend server:
    ```bash
